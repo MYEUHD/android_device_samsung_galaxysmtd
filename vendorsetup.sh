@@ -15,3 +15,4 @@
 #
 
 add_lunch_combo aosp_galaxysmtd-userdebug
+add_lunch_combo omni_galaxysmtd-userdebug
