@@ -38,15 +38,6 @@
 
 # These are the hardware-specific configuration files
 
-ifeq ($(TARGET_PREBUILT_KERNEL),)
-  LOCAL_KERNEL := device/samsung/galaxysmtd/zImage
-else
-  LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
-endif
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_KERNEL):kernel
-
 PRODUCT_COPY_FILES += \
 	device/samsung/galaxysmtd/asound.conf:system/etc/asound.conf
 
