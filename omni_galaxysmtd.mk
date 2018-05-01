@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# These are OmniROM's hardware-specific configuration files.
+DEVICE_PACKAGE_OVERLAYS += \
+device/samsung/galaxysmtd/overlay
+
 # bootanimation
 TARGET_BOOTANIMATION_SIZE := 480x320
 
